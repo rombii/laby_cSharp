@@ -1,0 +1,12 @@
+C:\Users\ibmorr\RiderProjects\lab7\lab7\bin\Debug\lab7.exe.config
+C:\Users\ibmorr\RiderProjects\lab7\lab7\bin\Debug\lab7.exe
+C:\Users\ibmorr\RiderProjects\lab7\lab7\bin\Debug\lab7.pdb
+C:\Users\ibmorr\RiderProjects\lab7\lab7\obj\Debug\lab7.csproj.AssemblyReference.cache
+C:\Users\ibmorr\RiderProjects\lab7\lab7\obj\Debug\lab7.csproj.SuggestedBindingRedirects.cache
+C:\Users\ibmorr\RiderProjects\lab7\lab7\obj\Debug\lab7.Properties.Resources.resources
+C:\Users\ibmorr\RiderProjects\lab7\lab7\obj\Debug\lab7.csproj.GenerateResource.cache
+C:\Users\ibmorr\RiderProjects\lab7\lab7\obj\Debug\lab7.csproj.CoreCompileInputs.cache
+C:\Users\ibmorr\RiderProjects\lab7\lab7\obj\Debug\lab7.exe
+C:\Users\ibmorr\RiderProjects\lab7\lab7\obj\Debug\lab7.pdb
+C:\Users\ibmorr\RiderProjects\lab7\lab7\obj\Debug\lab7.Form1.resources
+C:\Users\ibmorr\RiderProjects\lab7\lab7\obj\Debug\lab7.Form2.resources
