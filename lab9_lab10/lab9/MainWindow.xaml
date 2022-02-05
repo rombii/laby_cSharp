@@ -1,0 +1,20 @@
+﻿<Window x:Class="lab9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Add Student" Height="60" Width="120" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40 60" Click="openAddStudent"></Button>
+        <Button Content="Remove Student" Height="60" Width="120" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="180 60" Click="removeStudent"></Button>
+        <Button Content="Save File TXT" Height="60" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin=" 300 20" Click="saveToFile"></Button>
+        <Button Content="Load File TXT" Height="60" Width="100" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="300 20" Click="loadFromFile"></Button>
+        <Button Content="Save File XML" Height="60" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin=" 300 100" Click="saveToFileXML"></Button>
+        <Button Content="Load File XML" Height="60" Width="100" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="300 100" Click="loadFromFileXML"></Button>
+        <Button Content="Add Grade" Height="60" Width="120" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="180 60" Click="addGrade"></Button>
+        <Button Content="Grades" Height="60" Width="120" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="40 60" Click="showGrades"></Button>
+        <DataGrid Name="content" VerticalAlignment="Bottom" Height="250"></DataGrid>
+    </Grid>
+</Window>

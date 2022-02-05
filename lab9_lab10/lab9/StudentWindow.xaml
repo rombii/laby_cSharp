@@ -1,0 +1,20 @@
+﻿<Window x:Class="lab9.StudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:lab9"
+        mc:Ignorable="d"
+        Title="StudentWindow" Height="300" Width="200">
+    <Grid>
+        <Label Content="imie" HorizontalAlignment="Left"></Label>
+        <TextBox Name="imie" Height="20" Width="120" VerticalAlignment="Top" HorizontalAlignment="Right"></TextBox>
+        <Label Content="nazwisko" Margin="0 30" HorizontalAlignment="Left"></Label>
+        <TextBox Name="nazwisko" Height="20" Width="120" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 30"></TextBox>
+        <Label Content="nr" Margin="0 60" HorizontalAlignment="Left"></Label>
+        <TextBox Name="nr" Height="20" Width="120" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 60"></TextBox>
+        <Label Content="wydzial" Margin="0 90" HorizontalAlignment="Left"></Label>
+        <TextBox Name="wydzial" Height="20" Width="120" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 90"></TextBox>
+        <Button Content="Ok" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="20 100" Width="60" Click="okButton"></Button>
+    </Grid>
+</Window>
