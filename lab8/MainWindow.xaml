@@ -1,0 +1,26 @@
+﻿<Window x:Class="lab8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1200">
+    <Grid>
+        <Label Content="Podaj a" FontSize="16" Margin="40 150"></Label>
+        <TextBox Height="20" Width="120" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110 155" Name="n1"></TextBox>
+        <Label Content="Podaj b" FontSize="16" Margin="280 150"></Label>
+        <TextBox Height="20" Width="120" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="350 155" Name="n2"></TextBox>
+        <Button Content="Suma" Background="LightSlateGray" Height="30" Width="120" HorizontalAlignment="Left" Click="suma"></Button>
+        <Button Content="Iloczyn" Background="LightSlateGray" Height="30" Width="120" HorizontalAlignment="Left" Margin="150 0" Click="iloczyn"></Button>
+        <Button Content="Różnica" Background="LightSlateGray" Height="30" Width="120" HorizontalAlignment="Left" Margin="300 0" Click="roznica"></Button>
+        <Button Content="Iloraz" Background="LightSlateGray" Height="30" Width="120" HorizontalAlignment="Left" Margin="450 0" Click="iloraz"></Button>
+        <Label Content="Wynik" Name="wynikLabel" Height="40" Width="240" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20 150"></Label>
+        <ListBox HorizontalAlignment="Right" Width="120" Name="listEquals"></ListBox>
+        <RadioButton Content="Blue" HorizontalAlignment="Right" Margin="149 0" Name="blue"></RadioButton>
+        <RadioButton Content="Green" HorizontalAlignment="Right" Margin="140 20" Name="green"></RadioButton>
+        <RadioButton Content="Red" HorizontalAlignment="Right" Margin="152 40" Name="red"></RadioButton>
+        
+        <CheckBox Content="Bold" HorizontalAlignment="Right" Margin="150 60" Name="bold"></CheckBox>
+    </Grid>
+</Window>
